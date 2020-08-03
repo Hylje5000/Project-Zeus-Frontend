@@ -28,7 +28,7 @@ class Main extends Component {
         this.props.dispatch(getChannels())
         this.props.dispatch(getLoggedIn())
         this.flatten(this.props.channels)
-        console.log(this.props.loggedIn)
+        //console.log(this.props.loggedIn)
     }
 
     flatten = channels => {
@@ -157,13 +157,13 @@ class Main extends Component {
             <Helmet title="Zeus" />
             <div className="home-container">
                 <div className="ticker-wrap">
-                    <div className="ticker">
-                        {this.props.loggedIn.map(user => (
+                    {/*  <div className="ticker">
+                       {this.props.loggedIn.map(user => (
                             <span className="ticker-item" key={user}>
                                 {user}
                             </span>
-                        ))}
-                    </div>
+                    ))} 
+                    </div> */}
                 </div>
 
                 <div className="nav">
