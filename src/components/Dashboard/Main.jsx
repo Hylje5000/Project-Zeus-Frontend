@@ -28,6 +28,7 @@ class Main extends Component {
         this.props.dispatch(getChannels())
         this.props.dispatch(getLoggedIn())
         this.flatten(this.props.channels)
+        console.log(this.props.loggedIn)
     }
 
     flatten = channels => {
