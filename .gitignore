@@ -7,6 +7,9 @@ yarn-error.log
 # build dir
 /build
 
+# but not Netlify redirect file
+!/build/_redirects
+
 # environment variables
 .env
 
