@@ -1,5 +1,6 @@
 {
     "id": "616198952328364042",
     "url": "http://ec2-13-59-202-193.us-east-2.compute.amazonaws.com:5000/api/token",
-    "baseUrl": "https://projectzeus-miska.netlify.app"
+    "baseUrl": "http://ec2-13-59-202-193.us-east-2.compute.amazonaws.com:5000",
+    "backendUrl": "http://ec2-13-59-202-193.us-east-2.compute.amazonaws.com:5000"
 }
