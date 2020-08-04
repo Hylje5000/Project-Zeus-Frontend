@@ -5,10 +5,10 @@
 yarn-error.log
 
 # build dir
-/build
+/build/*
 
 # but not Netlify redirect file
-!/build/_redirects
+!*build/_redirects
 
 # environment variables
 .env
