@@ -20,7 +20,7 @@ import { PERSIST_KEY } from 'constants'
 // Create client alias
 // Used in action creators
 const client = axios.create({
-    baseURL: INFO.baseUrl,
+    baseURL: INFO.backendUrl,
     responseType: 'json'
 })
 
