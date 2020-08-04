@@ -4,7 +4,7 @@ import INFO from 'constants'
 
 export const changeAccess = (channelId, bool) => (dispatch, getState) => {
     const { token } = getState().main
-    return axios.post(`${INFO.backendUrl}/api/`, {
+    return axios.post(`${INFO.BackendUrl}/api/`, {
         channelId,
         bool,
         token
